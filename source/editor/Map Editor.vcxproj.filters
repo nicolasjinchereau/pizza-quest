@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{d202895a-959b-4a8c-be98-a1a15982311e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL_Screen">
+      <UniqueIdentifier>{a9599825-af76-43d4-9148-7c3647a666bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL_Draw">
+      <UniqueIdentifier>{81ee1cb8-63f9-4a4c-95db-4b9ca80d1067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIManager">
+      <UniqueIdentifier>{355d583d-b1e5-4734-aaea-180bafb5c576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL_Sprite">
+      <UniqueIdentifier>{43523210-8246-41f1-8670-02691520a890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GL_Sprite\HotKey Dialog">
+      <UniqueIdentifier>{879b3430-8c99-4099-a77b-773ae6eb42b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Editor">
+      <UniqueIdentifier>{2d79c684-f1fe-44fc-90a7-61d9b9c12eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Editor\History">
+      <UniqueIdentifier>{67333cf1-d1db-4b46-bc11-332566a17dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Editor\PQMap">
+      <UniqueIdentifier>{792d53fd-a4c2-4f17-8791-bf1c94591323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Editor\PQMapNode">
+      <UniqueIdentifier>{7e66e334-fdbc-421b-b8b4-e8cf32ff25b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map Editor\PQMapEditor">
+      <UniqueIdentifier>{b178e41f-b040-448c-9a4a-b088aaec1383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs">
+      <UniqueIdentifier>{bdca2af9-1252-4d96-a12e-b8f9a7fc5e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\Resource Dialog">
+      <UniqueIdentifier>{13e8df06-0561-42c5-b305-8e2fb4e2c689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\Collision Editor">
+      <UniqueIdentifier>{b65afe40-ea02-46bc-8bf7-1501ca0fdaac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\SelectBy Dialog">
+      <UniqueIdentifier>{cebad9a2-5eac-4277-ac25-67896fe65978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\MapProperties">
+      <UniqueIdentifier>{56c5bd33-fef9-4fdc-be37-40389bd5d7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialogs\Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Dialogs\EditorSidebar">
+      <UniqueIdentifier>{ca993e33-0a83-4c38-98b8-e4611d3d11d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="definitions.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Screen.h">
+      <Filter>GL_Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Draw.h">
+      <Filter>GL_Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="keycodes.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="vecmath.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceDialog.h">
+      <Filter>Dialogs\Resource Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="filename.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Dialogs\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSidebar.h">
+      <Filter>Dialogs\EditorSidebar</Filter>
+    </ClInclude>
+    <ClInclude Include="propertygrid.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="PQNumbers.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="list.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="CHotkeyDialog.h">
+      <Filter>GL_Sprite\HotKey Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Sprite.h">
+      <Filter>GL_Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionEditor.h">
+      <Filter>Dialogs\Collision Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="PQB2Shapes.h">
+      <Filter>Dialogs\Collision Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PQString.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="PQMap.h">
+      <Filter>Map Editor\PQMap</Filter>
+    </ClInclude>
+    <ClInclude Include="delegate.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>Map Editor\History</Filter>
+    </ClInclude>
+    <ClInclude Include="PQMapNode.h">
+      <Filter>Map Editor\PQMapNode</Filter>
+    </ClInclude>
+    <ClInclude Include="PQMapEditor.h">
+      <Filter>Map Editor\PQMapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectByDialog.h">
+      <Filter>Dialogs\SelectBy Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPropertiesDialog.h">
+      <Filter>Dialogs\MapProperties</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruler.h">
+      <Filter>Map Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Dialogs\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_Draw.cpp">
+      <Filter>GL_Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSidebar.cpp">
+      <Filter>Dialogs\EditorSidebar</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceDialog.cpp">
+      <Filter>Dialogs\Resource Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="filename.cpp">
+      <Filter>Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_Screen.cpp">
+      <Filter>GL_Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="CHotkeyDialog.cpp">
+      <Filter>GL_Sprite\HotKey Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GL_Sprite.cpp">
+      <Filter>GL_Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionEditor.cpp">
+      <Filter>Dialogs\Collision Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="PQB2Shapes.cpp">
+      <Filter>Dialogs\Collision Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PQMap.cpp">
+      <Filter>Map Editor\PQMap</Filter>
+    </ClCompile>
+    <ClCompile Include="PQMapNode.cpp">
+      <Filter>Map Editor\PQMapNode</Filter>
+    </ClCompile>
+    <ClCompile Include="PQMapEditor.cpp">
+      <Filter>Map Editor\PQMapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectByDialog.cpp">
+      <Filter>Dialogs\SelectBy Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPropertiesDialog.cpp">
+      <Filter>Dialogs\MapProperties</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Map Editor.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="toolbar_cold.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar_hot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stamp.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="grabOpened.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="grabClosed.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sound.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PizzaIcon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar_collision_cold.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="toolbar_collision_hot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="missing.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

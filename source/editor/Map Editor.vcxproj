@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B9657A8-CB37-4D29-A782-D3DC24D98F0D}</ProjectGuid>
+    <RootNamespace>MapEditor</RootNamespace>
+    <ProjectName>Map Editor</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)..\NPng\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(ProjectDir)..\NPng\lib\$(PlatformName)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <TargetName>PQMapEditor</TargetName>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)..\NPng\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(ProjectDir)..\NPng\lib\$(PlatformName)\$(Configuration)\;$(LibraryPath)</LibraryPath>
+    <TargetName>PQMapEditor</TargetName>
+    <OutDir>$(SolutionDir)..\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PreprocessorDefinitions>NO_WARN_MBCS_MFC_DEPRECATION;_WIN32_WINNT=0x0600;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>NPng.lib;OpenGL32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PreprocessorDefinitions>NO_WARN_MBCS_MFC_DEPRECATION;_WIN32_WINNT=0x0600;NDEBUG;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <OmitFramePointers>false</OmitFramePointers>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>NPng.lib;OpenGL32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CHotkeyDialog.h" />
+    <ClInclude Include="definitions.h" />
+    <ClInclude Include="delegate.h" />
+    <ClInclude Include="EditorSidebar.h" />
+    <ClInclude Include="filename.h" />
+    <ClInclude Include="GL_Draw.h" />
+    <ClInclude Include="GL_Screen.h" />
+    <ClInclude Include="History.h" />
+    <ClInclude Include="keycodes.h" />
+    <ClInclude Include="list.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MapPropertiesDialog.h" />
+    <ClInclude Include="PQB2Shapes.h" />
+    <ClInclude Include="PQMap.h" />
+    <ClInclude Include="PQMapEditor.h" />
+    <ClInclude Include="PQMapNode.h" />
+    <ClInclude Include="GL_Sprite.h" />
+    <ClInclude Include="PQString.h" />
+    <ClInclude Include="propertygrid.h" />
+    <ClInclude Include="PQNumbers.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceDialog.h" />
+    <ClInclude Include="CollisionEditor.h" />
+    <ClInclude Include="Ruler.h" />
+    <ClInclude Include="SelectByDialog.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UIManager.h" />
+    <ClInclude Include="vecmath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CHotkeyDialog.cpp" />
+    <ClCompile Include="EditorSidebar.cpp" />
+    <ClCompile Include="filename.cpp" />
+    <ClCompile Include="GL_Draw.cpp" />
+    <ClCompile Include="GL_Screen.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapPropertiesDialog.cpp" />
+    <ClCompile Include="PQB2Shapes.cpp" />
+    <ClCompile Include="PQMap.cpp" />
+    <ClCompile Include="PQMapEditor.cpp" />
+    <ClCompile Include="PQMapNode.cpp" />
+    <ClCompile Include="GL_Sprite.cpp" />
+    <ClCompile Include="ResourceDialog.cpp" />
+    <ClCompile Include="CollisionEditor.cpp" />
+    <ClCompile Include="SelectByDialog.cpp" />
+    <ClCompile Include="UIManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Map Editor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="grabClosed.cur" />
+    <None Include="grabOpened.cur" />
+    <None Include="missing.bmp" />
+    <None Include="PizzaIcon.ico" />
+    <None Include="sound.bmp" />
+    <None Include="stamp.cur" />
+    <None Include="toolbar_cold.bmp" />
+    <None Include="toolbar_collision_cold.bmp" />
+    <None Include="toolbar_collision_hot.bmp" />
+    <None Include="toolbar_hot.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Map Editor.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\bit.c" />
+    <ClCompile Include="..\..\source\decoder.c" />
+    <ClCompile Include="..\..\source\fixed.c" />
+    <ClCompile Include="..\..\source\frame.c" />
+    <ClCompile Include="..\..\source\huffman.c" />
+    <ClCompile Include="..\..\source\layer12.c" />
+    <ClCompile Include="..\..\source\layer3.c" />
+    <ClCompile Include="..\..\source\stream.c" />
+    <ClCompile Include="..\..\source\synth.c" />
+    <ClCompile Include="..\..\source\timer.c" />
+    <ClCompile Include="..\..\source\version.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\bit.h" />
+    <ClInclude Include="..\..\include\config.h" />
+    <ClInclude Include="..\..\include\decoder.h" />
+    <ClInclude Include="..\..\include\fixed.h" />
+    <ClInclude Include="..\..\include\frame.h" />
+    <ClInclude Include="..\..\include\global.h" />
+    <ClInclude Include="..\..\include\huffman.h" />
+    <ClInclude Include="..\..\include\layer12.h" />
+    <ClInclude Include="..\..\include\layer3.h" />
+    <ClInclude Include="..\..\include\mad.h" />
+    <ClInclude Include="..\..\include\stream.h" />
+    <ClInclude Include="..\..\include\synth.h" />
+    <ClInclude Include="..\..\include\timer.h" />
+    <ClInclude Include="..\..\include\version.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\source\D.dat" />
+    <None Include="..\..\source\imdct_s.dat" />
+    <None Include="..\..\source\qc_table.dat" />
+    <None Include="..\..\source\rq_table.dat" />
+    <None Include="..\..\source\sf_table.dat" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BE813B95-AA63-4D55-83BC-9E896B4910F6}</ProjectGuid>
+    <RootNamespace>LibMad</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>LibMad</TargetName>
+    <IncludePath>$(ProjectDir)..\..\include;$(ProjectDir)..\..\source;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)..\..\lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>LibMad</TargetName>
+    <IncludePath>$(ProjectDir)..\..\include;$(ProjectDir)..\..\source;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)..\..\lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

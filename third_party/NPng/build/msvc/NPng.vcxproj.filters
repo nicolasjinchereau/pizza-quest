@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LibPng">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="NPng">
+      <UniqueIdentifier>{179beaec-1d3b-47ff-9ca3-0a92d6900cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZLib">
+      <UniqueIdentifier>{db9742af-3c39-4269-897e-54430506418c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\NPng.cpp">
+      <Filter>NPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngerror.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngget.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngmem.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngpread.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngread.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngrio.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngrtran.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngrutil.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngset.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngtrans.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngwio.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngwrite.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngwtran.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\pngwutil.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\libpng\png.c">
+      <Filter>LibPng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\zutil.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\adler32.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\compress.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\crc32.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\deflate.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\gzclose.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\gzlib.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\gzread.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\gzwrite.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\infback.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\inffast.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\inflate.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\inftrees.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\trees.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\zlib\uncompr.c">
+      <Filter>ZLib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\NPng.h">
+      <Filter>NPng</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

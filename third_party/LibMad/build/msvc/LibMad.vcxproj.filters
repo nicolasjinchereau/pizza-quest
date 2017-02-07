@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{ad336086-e55d-491d-823f-ec3050f51fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4f2e8f79-7998-4f5b-9aad-73c3826bf0b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\layer12.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\stream.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\synth.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\timer.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\version.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\bit.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\decoder.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\fixed.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\frame.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\huffman.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\layer3.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\mad.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\stream.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\synth.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\timer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\version.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\bit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\decoder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\fixed.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\frame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\global.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\huffman.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\layer3.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\layer12.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\source\qc_table.dat">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\..\source\rq_table.dat">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\..\source\sf_table.dat">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\..\source\D.dat">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\..\source\imdct_s.dat">
+      <Filter>source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

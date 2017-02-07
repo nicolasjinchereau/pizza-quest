@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{9c6a2804-fccd-4470-a4b0-a9499b666ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pizza Quest">
+      <UniqueIdentifier>{44d48088-3048-4b03-a07d-d189556ad194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pizza Quest\Characters">
+      <UniqueIdentifier>{d9721446-91d2-43b3-9e68-d6039a6f0519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pizza Quest\HUD">
+      <UniqueIdentifier>{c7aaf129-f1ef-426e-8ef7-c10cfaee5c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pizza Quest\Map Objects">
+      <UniqueIdentifier>{5319d7b9-0e00-4201-91d3-9d8547b3c2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pizza Quest\Map Objects\PQB2Shapes">
+      <UniqueIdentifier>{dfe5793c-91c3-41c7-8cba-78786f5b6b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pizza Quest\States">
+      <UniqueIdentifier>{34f9f3f7-bc7d-409d-ac20-e0540f7f3cc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PQGameTypes.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PQB2Shapes.cpp">
+      <Filter>Pizza Quest\Map Objects\PQB2Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionTween.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MP3Decoder.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PQStillImage.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQScoreScreen.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPauseMenu.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQMenu.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQGameLoader.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQGame.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQCredits.cpp">
+      <Filter>Pizza Quest\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PQVehicle.cpp">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPlayer.cpp">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPedestrian.cpp">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPathFinder.cpp">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PQCharacter.cpp">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PQCompass.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQGameTimer.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQJoystick.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQProgressBar.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQTile.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PQStructure.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PQProp.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PQDelivery.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderQueue.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPizzaShop.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PQUseButton.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPowerUp.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="PQNitroGauge.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQHealthBar.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQPizzaPickup.cpp">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProfile.cpp">
+      <Filter>Pizza Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="PQDeliveryStatus.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQStrikeCounter.cpp">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="PQCopCar.cpp">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="PizzaQuest.cpp">
+      <Filter>Pizza Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBuffer.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PQGameTypes.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PQB2Shapes.h">
+      <Filter>Pizza Quest\Map Objects\PQB2Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="bytestream.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionTween.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MP3Decoder.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsApp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PQStillImage.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQScoreScreen.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPauseMenu.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQMenu.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQGameLoader.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQGame.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQCredits.h">
+      <Filter>Pizza Quest\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PQVehicle.h">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPlayer.h">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPedestrian.h">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPathFinder.h">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PQCharacter.h">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="PQCompass.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQGameTimer.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQJoystick.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQProgressBar.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQTile.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PQStructure.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PQProp.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PQDelivery.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Keycodes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderQueue.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPizzaShop.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PQUseButton.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPowerUp.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumBitmask.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="curves.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="PQNitroGauge.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQHealthBar.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQPizzaPickup.h">
+      <Filter>Pizza Quest\Map Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProfile.h">
+      <Filter>Pizza Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="PQDeliveryStatus.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQStrikeCounter.h">
+      <Filter>Pizza Quest\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="PQCopCar.h">
+      <Filter>Pizza Quest\Characters</Filter>
+    </ClInclude>
+    <ClInclude Include="property.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="PizzaQuest.h">
+      <Filter>Pizza Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBuffer.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PizzaIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PizzaQuest.rc" />
+  </ItemGroup>
+</Project>

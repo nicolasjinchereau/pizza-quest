@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NPng", "NPng.vcxproj", "{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|ARM = Debug|ARM
+		Release|Win32 = Release|Win32
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Debug|Win32.Build.0 = Debug|Win32
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Release|Win32.ActiveCfg = Release|Win32
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Release|Win32.Build.0 = Release|Win32
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Debug|ARM.Build.0 = Debug|ARM
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Release|ARM.ActiveCfg = Release|ARM
+		{0AE20BCD-B2AF-48C8-81F1-5E9445FEDE2D}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

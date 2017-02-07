@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Box2D.h" />
+    <ClInclude Include="..\..\include\Collision\b2BroadPhase.h" />
+    <ClInclude Include="..\..\include\Collision\b2Collision.h" />
+    <ClInclude Include="..\..\include\Collision\b2Distance.h" />
+    <ClInclude Include="..\..\include\Collision\b2DynamicTree.h" />
+    <ClInclude Include="..\..\include\Collision\b2TimeOfImpact.h" />
+    <ClInclude Include="..\..\include\Collision\Shapes\b2ChainShape.h" />
+    <ClInclude Include="..\..\include\Collision\Shapes\b2CircleShape.h" />
+    <ClInclude Include="..\..\include\Collision\Shapes\b2EdgeShape.h" />
+    <ClInclude Include="..\..\include\Collision\Shapes\b2PolygonShape.h" />
+    <ClInclude Include="..\..\include\Collision\Shapes\b2Shape.h" />
+    <ClInclude Include="..\..\include\Common\b2BlockAllocator.h" />
+    <ClInclude Include="..\..\include\Common\b2Draw.h" />
+    <ClInclude Include="..\..\include\Common\b2GrowableStack.h" />
+    <ClInclude Include="..\..\include\Common\b2Math.h" />
+    <ClInclude Include="..\..\include\Common\b2Settings.h" />
+    <ClInclude Include="..\..\include\Common\b2StackAllocator.h" />
+    <ClInclude Include="..\..\include\Common\b2Timer.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2Body.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2ContactManager.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2Fixture.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2Island.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2TimeStep.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2World.h" />
+    <ClInclude Include="..\..\include\Dynamics\b2WorldCallbacks.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2ChainAndCircleContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2ChainAndPolygonContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2CircleContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2Contact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2ContactSolver.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2EdgeAndCircleContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2EdgeAndPolygonContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2PolygonAndCircleContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Contacts\b2PolygonContact.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2DistanceJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2FrictionJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2GearJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2Joint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2MouseJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2PrismaticJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2PulleyJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2RevoluteJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2RopeJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2WeldJoint.h" />
+    <ClInclude Include="..\..\include\Dynamics\Joints\b2WheelJoint.h" />
+    <ClInclude Include="..\..\include\Rope\b2Rope.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Collision\b2BroadPhase.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2CollideCircle.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2CollideEdge.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2CollidePolygon.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2Collision.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2Distance.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2DynamicTree.cpp" />
+    <ClCompile Include="..\..\source\Collision\b2TimeOfImpact.cpp" />
+    <ClCompile Include="..\..\source\Collision\Shapes\b2ChainShape.cpp" />
+    <ClCompile Include="..\..\source\Collision\Shapes\b2CircleShape.cpp" />
+    <ClCompile Include="..\..\source\Collision\Shapes\b2EdgeShape.cpp" />
+    <ClCompile Include="..\..\source\Collision\Shapes\b2PolygonShape.cpp" />
+    <ClCompile Include="..\..\source\Common\b2BlockAllocator.cpp" />
+    <ClCompile Include="..\..\source\Common\b2Draw.cpp" />
+    <ClCompile Include="..\..\source\Common\b2Math.cpp" />
+    <ClCompile Include="..\..\source\Common\b2Settings.cpp" />
+    <ClCompile Include="..\..\source\Common\b2StackAllocator.cpp" />
+    <ClCompile Include="..\..\source\Common\b2Timer.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\b2Body.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\b2ContactManager.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\b2Fixture.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\b2Island.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\b2World.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\b2WorldCallbacks.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2ChainAndCircleContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2ChainAndPolygonContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2CircleContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2Contact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2ContactSolver.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2EdgeAndCircleContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Contacts\b2PolygonContact.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2DistanceJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2FrictionJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2GearJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2Joint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2MouseJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2PrismaticJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2PulleyJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2RevoluteJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2RopeJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2WeldJoint.cpp" />
+    <ClCompile Include="..\..\source\Dynamics\Joints\b2WheelJoint.cpp" />
+    <ClCompile Include="..\..\source\Rope\b2Rope.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF7E2C7A-BF65-456C-AD5E-119282C34056}</ProjectGuid>
+    <RootNamespace>Box2D</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TargetName>Box2D</TargetName>
+    <IncludePath>$(ProjectDir)..\..\include;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)..\..\lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetName>Box2D</TargetName>
+    <IncludePath>$(ProjectDir)..\..\include;$(IncludePath)</IncludePath>
+    <OutDir>$(ProjectDir)..\..\lib\$(PlatformName)\$(Configuration)\</OutDir>
+    <IntDir>$(ProjectDir)$(PlatformName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <LinkTimeCodeGeneration>false</LinkTimeCodeGeneration>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

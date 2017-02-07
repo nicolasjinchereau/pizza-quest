@@ -1,0 +1,11 @@
+Debug/
+Release/
+*.vcxproj.user
+*.VC.opendb
+*.VC.db
+.vs/
+player.dat
+!/bin/PQMapEditor.exe
+!/bin/PizzaQuest.exe
+!/source/editor/glew/lib/glew32s.lib
+!/source/editor/glew/lib/glew32sd.lib
